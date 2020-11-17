@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MR.PROJECT</title>
+    <link rel="shortcut icon" href="/imagenes/favicon.png" type="image/ico" />
+</head>
+<body>
+    <header>
+        <a href="/misitio/proyectos/index.html">Volver a la pagina anterior</a>
+        <h1>Informacion sobre el producto</h1>
+    </header>
+    <div style="margin-right: 950px;">
+        <fieldset>
+            <legend>Datos basicos</legend>
+            <label for="nombre">Nombre</label>
+            <br/>
+            <br/>
+            <label for="desc">Descripcion</label>
+            <textarea type="text" name="descripcion" id="desc" cols="40" rows="5" ></textarea>
+            <br/>
+            <br/>
+            <label for="foto">Foto</label>
+            <input type="file" name="foto" id="foto">
+            <br/>
+            <br/>
+            <input type="checkbox" name="aniadir" value="" id="">Aniadir contador de vistas
+        </fieldset>
+        <fieldset>
+            <legend>Datos Economicos</legend>  
+            <label for="precio">Precio</label>
+            <input type="text" size="1%">$ 
+            <label for="">Impuestos</label>
+            <select name="imp" id="imp">
+                <optgroup label="Impuestos">
+                    <option value="select">Selecciona</option>
+                    <option value="4">4%</option>
+                    <option value="7">7%</option>
+                    <option value="16">16%</option>
+                    <option value="25">25%</option>
+                </optgroup>
+            </select>
+            <br/>
+            <br/>
+            <label for="">Promocion</label><br/>
+            <input type="radio" value="ninguno">Ninguno <br/>
+            <input type="radio" value="transporte"> Transporte gratuito <br/>
+            <input type="radio" value="descuento"> Descuento de 5%
+        </fieldset>
+    </div>
+</body>
+</html>
